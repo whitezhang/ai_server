@@ -1,0 +1,18 @@
+{
+  "name": "ai-server-github-trends",
+  "version": "1.0.0",
+  "description": "GitHub Trends hourly crawler with query API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2"
+  }
+}
